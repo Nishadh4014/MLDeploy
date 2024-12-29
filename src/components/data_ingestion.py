@@ -52,7 +52,11 @@ if __name__=="__main__":
     train_data,test_data=obj.initiate_data_ingestion()
 
     obj2=DataTransformation()
-    obj2.initiate_data_transformation(obj.ingestion_config.train_data_path,obj.ingestion_config.test_data_path)
+    train_arr,test_arr,_=obj2.initiate_data_transformation(train_data,test_data)
+
+    print(train_arr)
+    print(test_arr)
     
+
 
 

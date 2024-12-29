@@ -6,7 +6,8 @@ import pandas as pd
 import pickle
 from exception import CustomException
 
-
+# basically to serealizing the preprocessing pipeline object and saving the python object as a file.
+# .pkl format used by the pickle module which is used to store the python object or to transmit it over a network. (maybe while deploying) 
 def save_object(file_path, obj):
     try:
         dir_path = os.path.dirname(file_path)
