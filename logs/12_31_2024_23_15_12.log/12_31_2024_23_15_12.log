@@ -1,0 +1,9 @@
+[ 2024-12-31 23:15:46,974 ] 26 root - INFO - Entered the data ingestion method or component
+[ 2024-12-31 23:15:47,063 ] 29 root - INFO - Read the dataset as dataframe
+[ 2024-12-31 23:15:47,063 ] 30 root - INFO - Train test split initiated
+[ 2024-12-31 23:15:47,100 ] 40 root - INFO - Data ingestion completed
+[ 2024-12-31 23:15:47,125 ] 71 root - INFO - Read train and test data completed
+[ 2024-12-31 23:15:47,125 ] 72 root - INFO - obtaining preprocessing object
+[ 2024-12-31 23:15:47,134 ] 84 root - INFO - Applying preprocessing pipeline to training and testing data frames
+[ 2024-12-31 23:15:47,170 ] 33 root - INFO - Split training and test input data
+[ 2024-12-31 23:16:53,272 ] 102 root - INFO - Best found model on both training and testing dataset

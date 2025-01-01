@@ -9,7 +9,7 @@ from dataclasses import dataclass
 import pandas as pd
 
 from data_transformation import DataTransformation
-
+from model_trainer import ModelTrainer
 @dataclass
 class DataIngestionConfig:
     train_data_path: str = os.path.join('artifacts',"train.cvs")
@@ -54,9 +54,9 @@ if __name__=="__main__":
     obj2=DataTransformation()
     train_arr,test_arr,_=obj2.initiate_data_transformation(train_data,test_data)
 
-    print(train_arr)
-    print(test_arr)
-    
+    obj3=ModelTrainer()
+    print(obj3.initiate_model_trainer(train_arr,test_arr))
+
 
 
 
