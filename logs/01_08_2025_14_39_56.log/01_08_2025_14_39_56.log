@@ -1,0 +1,17 @@
+[ 2025-01-08 14:40:02,091 ] 97 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.10:5000
+[ 2025-01-08 14:40:02,092 ] 97 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[ 2025-01-08 14:40:48,377 ] 97 werkzeug - INFO - 127.0.0.1 - - [08/Jan/2025 14:40:48] "GET / HTTP/1.1" 200 -
+[ 2025-01-08 14:40:48,840 ] 97 werkzeug - INFO - 127.0.0.1 - - [08/Jan/2025 14:40:48] "[33mGET /meta.json HTTP/1.1[0m" 404 -
+[ 2025-01-08 14:40:48,840 ] 97 werkzeug - INFO - 127.0.0.1 - - [08/Jan/2025 14:40:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[ 2025-01-08 14:40:49,127 ] 97 werkzeug - INFO - 127.0.0.1 - - [08/Jan/2025 14:40:49] "[33mGET /meta.json HTTP/1.1[0m" 404 -
+[ 2025-01-08 14:41:06,047 ] 97 werkzeug - INFO - 127.0.0.1 - - [08/Jan/2025 14:41:06] "GET /predictdata HTTP/1.1" 200 -
+[ 2025-01-08 14:41:06,370 ] 97 werkzeug - INFO - 127.0.0.1 - - [08/Jan/2025 14:41:06] "[33mGET /meta.json HTTP/1.1[0m" 404 -
+[ 2025-01-08 14:41:34,401 ] 32 root - INFO - before prediction
+[ 2025-01-08 14:41:34,402 ] 34 root - INFO - mid prediction
+[ 2025-01-08 14:41:34,402 ] 16 root - INFO - intializing model loading
+[ 2025-01-08 14:41:35,369 ] 36 root - INFO - after prediction
+[ 2025-01-08 14:41:35,370 ] 97 werkzeug - INFO - 127.0.0.1 - - [08/Jan/2025 14:41:35] "POST /predictdata HTTP/1.1" 200 -
+[ 2025-01-08 14:41:35,629 ] 97 werkzeug - INFO - 127.0.0.1 - - [08/Jan/2025 14:41:35] "[33mGET /meta.json HTTP/1.1[0m" 404 -
